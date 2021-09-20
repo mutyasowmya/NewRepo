@@ -15,16 +15,12 @@
 	    <artifactId>mockito-all</artifactId>
 	    <version>1.10.19</version>
 	</dependency>
-  	
+
 	
   </dependencies>
   
-  
-  
-  
-  
-  <build>
-  <plugins>
+<build>
+ <plugins>
   <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-compiler-plugin</artifactId>
@@ -32,8 +28,8 @@
     <configuration>
         <release>11</release>
     </configuration>
-</plugin>
-  </plugins>
-  </build>
+  </plugin>
+ </plugins>
+</build>
   
 </project>
